@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="64.952">
+    <testcase classname="Account Page Feature" name="Accounts page title" time="10.924">
+        <system-out>
+            <![CDATA[Given user has already logged in to application.............................passed
+Given user is on Accounts page..............................................passed
+When user gets the title of the page........................................passed
+Then page title should be "My account - My Store"...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Account Page Feature" name="Accounts section count" time="10.463">
+        <system-out>
+            <![CDATA[Given user has already logged in to application.............................passed
+Given user is on Accounts page..............................................passed
+Then user gets accounts section.............................................passed
+And accounts section count should be 6......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login page feature" name="Login page title" time="5.033">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user gets the title of the page........................................passed
+Then page title should be "Login - My Store"................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login page feature" name="Forgot Password link" time="4.455">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+Then forgot your password link should be displayed..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login page feature" name="Login with correct credentials" time="6.317">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters username "keshavreddig@gmail.com"..........................passed
+And user enters password "Gameofthrones8"...................................passed
+And user clicks on Login button.............................................passed
+Then user gets the title of the page........................................passed
+And page title should be "My account - My Store"............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login page feature" name="Login with multiple users" time="10.211">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters username "keshavreddig@gmail.com"..........................passed
+And user enters password "Gameofthrones8"...................................passed
+And user clicks on Login button.............................................passed
+Then user gets the title of the page........................................passed
+And page title should be "My account - My Store"............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login page feature" name="Login with multiple users 2" time="7.014">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters username "deluxeqa@gmail.com"..............................passed
+And user enters password "Gameofthrones8"...................................passed
+And user clicks on Login button.............................................passed
+Then user gets the title of the page........................................passed
+And page title should be "My account - My Store"............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login page feature" name="Login with multiple users 3" time="10.107">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters username "automation49@gmail.com"..........................passed
+And user enters password "Gameofthrones8"...................................passed
+And user clicks on Login button.............................................passed
+Then user gets the title of the page........................................passed
+And page title should be "My account - My Store"............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
